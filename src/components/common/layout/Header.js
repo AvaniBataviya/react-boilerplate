@@ -16,6 +16,7 @@ import {
   removeItemFromStorage,
 } from '../../../utils/helper';
 import { useAuth } from '../../../hooks/useAuth';
+import logo from '../../../assets/images/logo.svg';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +33,11 @@ const Header = () => {
 
   return (
     <Navbar color="dark" dark expand="md">
-      <NavbarBrand className="text-white font-weight-bolder" href="/">
+      <NavbarBrand
+        className="text-white font-weight-bolder d-flex align-items-center"
+        href="/"
+      >
+        <img src={logo} alt=" React Boilerplate" className="logo" />
         React Boilerplate
       </NavbarBrand>
       <NavbarToggler onClick={toggle} />
