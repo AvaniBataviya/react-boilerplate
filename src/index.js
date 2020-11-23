@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import AppWithProvider from './app';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.scss';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppWithProvider />
   </React.StrictMode>,
   document.getElementById('root'),
 );
