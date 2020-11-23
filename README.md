@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# React Boilerplate based on Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `Features:`
+1) Eslint, prettier and stylelint setup 
+2) Follow Code-Splitting guide from react doc (https://reactjs.org/docs/code-splitting.html) to reduce bundle size
+3) Basic auth setup using context
+4) scss support with folder structure  
+
+# Getting Started React Boilerplate
+Clone repository `git clone https://github.com/AvaniBataviya/react-boilerplate.git`. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
