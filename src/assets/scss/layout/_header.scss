@@ -1,0 +1,18 @@
+.navbar-dark {
+	.logo {
+		height: 40px;
+	}
+
+	.navbar-nav .dropdown-menu {
+		.dropdown-item {
+			&:active,
+			.active {
+				background-color: $color-primary;
+			}
+
+			&:focus {
+				outline: none;
+			}
+		}
+	}
+}

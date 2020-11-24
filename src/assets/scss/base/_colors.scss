@@ -1,0 +1,73 @@
+@import '../abstract/variables';
+
+.text {
+	&-primary {
+		color: $color-primary !important;
+	}
+
+	&-primary-dark {
+		color: $color-primary-dark !important;
+	}
+
+	&-secondary-light {
+		color: $color-secondarylight !important;
+	}
+
+	&-white {
+		&-hov:hover {
+			color: $color-white !important;
+		}
+	}
+
+	&-black {
+		color: $color-black;
+	}
+
+	&-graydark {
+		color: $color-graydark;
+	}
+}
+
+.bg {
+	&-primary {
+		background-color: $color-primary !important;
+
+		&-hov:hover {
+			background-color: $color-primary !important;
+		}
+	}
+
+	&-secondary {
+		background-color: $color-secondary !important;
+
+		&-hov:hover {
+			background-color: $color-secondary !important;
+		}
+	}
+
+	&-white-hov:hover {
+		background-color: $color-white;
+	}
+
+	&-gray {
+		background-color: $color-gray;
+	}
+
+	&-graydark {
+		background-color: $color-graydark;
+	}
+
+	&-success {
+		background-color: $color-success;
+	}
+}
+
+.btn {
+	&-primary {
+		background-color: $color-primary !important;
+
+		&-hov:hover {
+			background-color: $color-primary !important;
+		}
+	}
+}

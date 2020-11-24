@@ -1,0 +1,112 @@
+// MEDIA QUERY MANAGER
+
+/*
+0px - 360px:		XS Phone
+360px - 576px: 		Phone
+576px - 768px: 		Tablet Portrait
+768px - 992px:		Tablet Landscape
+992px - 1200px: 	desktop
+1200px - 1920px:	normal Media queries
+1920px and up:  	Full HD
+*/
+
+/*
+$breakpoint arguement choices:
+- xs-phone
+- phone
+- tab-port
+- tab-land
+- desktop
+- full-hd
+
+1em = 16px
+*/
+
+@mixin respond-max($breakpoint) {
+	@if $breakpoint == xs-phone {
+		@media (max-width: 22.5em) {
+			@content;
+		} //360px
+	}
+	@if $breakpoint == sm-phone {
+		@media (max-width: 36em) {
+			@content;
+		} //576px
+	}
+	@if $breakpoint == md-tab {
+		@media (max-width: 48em) {
+			@content;
+		} //768px
+	}
+	@if $breakpoint == lg-desktop {
+		@media (max-width: 62em) {
+			@content;
+		} //992px
+	}
+	@if $breakpoint == xl-desktop {
+		@media (max-width: 75em) {
+			@content;
+		} //1200px
+	}
+	@if $breakpoint == full-hd {
+		@media (min-width: 120em) {
+			@content;
+		} //1920px
+	}
+}
+
+@mixin respond-min($breakpointmin) {
+	@if $breakpointmin == xs-phone {
+		@media (min-width: 22.5em) {
+			@content;
+		} //360px
+	}
+	@if $breakpointmin == sm-phone {
+		@media (min-width: 36em) {
+			@content;
+		} //576px
+	}
+	@if $breakpointmin == md-tab {
+		@media (min-width: 48em) {
+			@content;
+		} //768px
+	}
+	@if $breakpointmin == lg-desktop {
+		@media (min-width: 62em) {
+			@content;
+		} //992px
+	}
+	@if $breakpointmin == xl-desktop {
+		@media (min-width: 75em) {
+			@content;
+		} //1200px
+	}
+	@if $breakpointmin == full-hd {
+		@media (min-width: 120em) {
+			@content;
+		} //1920px
+	}
+}
+
+@mixin content-center {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+
+@mixin placeholder-color($color...) {
+	&:input-placeholder {
+		/* Edge */
+		color: $color;
+	}
+
+	:input-placeholder {
+		/* Internet Explorer 10-11 */
+		color: $color;
+	}
+
+	&::placeholder {
+		color: $color;
+	}
+}

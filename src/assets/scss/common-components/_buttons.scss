@@ -1,0 +1,21 @@
+@import '../abstract/variables';
+
+.btn-3d {
+	&-primary {
+		background: transparent
+			linear-gradient(90deg, $color-primary-dark 0%, $color-primary 100%) 0% 0%
+			no-repeat padding-box;
+		transition: 0.3s all;
+
+		&:hover {
+			background: transparent
+				linear-gradient(90deg, $color-primary-dark 0%, $color-primary 100%) 0%
+				0% no-repeat padding-box;
+			transition: 0.3s all;
+		}
+
+		&:active {
+			background-color: $color-primary;
+		}
+	}
+}

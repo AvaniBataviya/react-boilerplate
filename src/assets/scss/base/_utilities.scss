@@ -1,0 +1,119 @@
+@import './abstract/variables';
+
+.h {
+	@include respond-min(sm-phone) {
+		&-sm-100vh {
+			height: 100vh !important;
+		}
+	}
+	@include respond-min(md-tab) {
+		&-md-100vh {
+			height: 100vh !important;
+		}
+	}
+	@include respond-min(lg-desktop) {
+		&-lg-100vh {
+			height: 100vh !important;
+		}
+	}
+	@include respond-min(xl-desktop) {
+		&-xl-100vh {
+			height: 100vh !important;
+		}
+	}
+
+	&-100vh {
+		height: 100vh !important;
+	}
+}
+
+.w {
+	@include respond-min(xs-phone) {
+		&-xs-50 {
+			width: 50% !important;
+		}
+
+		&-xs-75 {
+			width: 75% !important;
+		}
+
+		&-xs-100 {
+			width: 100% !important;
+		}
+	}
+	@include respond-min(sm-phone) {
+		&-sm-50 {
+			width: 50% !important;
+		}
+
+		&-sm-75 {
+			width: 75% !important;
+		}
+
+		&-sm-100 {
+			width: 100% !important;
+		}
+	}
+	@include respond-min(md-tab) {
+		&-md-15 {
+			width: 15% !important;
+		}
+
+		&-md-25 {
+			width: 25% !important;
+		}
+
+		&-md-50 {
+			width: 50% !important;
+		}
+
+		&-md-75 {
+			width: 75% !important;
+		}
+
+		&-md-100 {
+			width: 100% !important;
+		}
+	}
+	@include respond-min(lg-tab) {
+		&-lg-50 {
+			width: 50% !important;
+		}
+
+		&-lg-75 {
+			width: 75% !important;
+		}
+	}
+}
+
+.list-style-none li {
+	list-style-type: none;
+}
+
+.cursor-pointer:hover {
+	cursor: pointer;
+}
+
+.smooth {
+	transition: 0.4s all;
+}
+
+.reset-link {
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.border-1 {
+	border: 1px solid $color-graylight;
+}
+
+.min-width-auto {
+	min-width: inherit !important;
+}
+
+.outline-none:focus {
+	outline: none;
+}

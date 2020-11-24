@@ -28,7 +28,7 @@ const Login = () => {
     setItemInStorage('user', {
       email,
     });
-    history.push('dashboard');
+    history.push('/');
   };
   return (
     <Container>

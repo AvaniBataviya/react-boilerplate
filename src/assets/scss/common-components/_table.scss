@@ -1,0 +1,25 @@
+.custom-table {
+	.table {
+		.thead-dark {
+			th {
+				background-color: #f5f8fc;
+				border-bottom: 1px solid $color-graylight;
+				border-top: 1px solid $color-graylight;
+			}
+		}
+
+		th {
+			border-color: $color-graylight;
+			color: $color-gray;
+			font-size: 16px;
+			font-weight: normal;
+		}
+
+		td {
+			border-color: $color-graylight;
+			color: $color-secondary;
+			font-size: 14px;
+			font-weight: normal;
+		}
+	}
+}

@@ -32,7 +32,7 @@ const Header = () => {
   };
 
   return (
-    <Navbar color="dark" dark expand="md">
+    <Navbar className="bg-primary" dark expand="md">
       <NavbarBrand
         className="text-white font-weight-bolder d-flex align-items-center"
         href="/"

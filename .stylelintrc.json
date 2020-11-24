@@ -2,6 +2,8 @@
   "extends": "stylelint-config-sass-guidelines",
   "rules": {
     "indentation": "tab",
-    "number-leading-zero": null
+    "number-leading-zero": null,
+    "max-nesting-depth": 5,
+    "selector-max-compound-selectors": 5
   }
 }

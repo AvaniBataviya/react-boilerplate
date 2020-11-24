@@ -1,21 +1,23 @@
-body {
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-		sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	margin: 0;
-}
+@import './abstract/functions';
+@import './abstract/mixins';
+@import './abstract/variables';
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-		monospace;
-}
+@import './base/base';
+@import './base/colors';
+@import './base/reset';
+@import './base/typography';
+@import './base/utilities';
 
-.h-100vh {
-	height: 100vh;
-}
+@import './common-components/buttons';
+@import './common-components/form';
+@import './common-components/modal';
+@import './common-components//loader';
+@import './common-components/table';
+@import './common-components/loader';
 
-.logo {
-	height: 40px;
-}
+@import './layout/index';
+@import './layout/header';
+@import './layout/footer';
+
+@import './pages/home';
+@import './pages/login';

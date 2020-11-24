@@ -12,7 +12,9 @@ const Welcome = () => {
     >
       <Col sm="12" md={6}>
         <h1>Welcome,</h1>
-        <h4>{userFromStorage && userFromStorage.email}</h4>
+        <h4 className="text-secondary">
+          {userFromStorage && userFromStorage.email}
+        </h4>
       </Col>
     </Row>
   );

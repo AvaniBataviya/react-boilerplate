@@ -1,0 +1,86 @@
+.fs {
+	&-10 {
+		font-size: 10px !important;
+	}
+
+	&-8 {
+		font-size: 8px !important;
+	}
+
+	&-12 {
+		font-size: 12px !important;
+	}
+
+	&-14 {
+		font-size: 14px !important;
+	}
+
+	&-16 {
+		font-size: 16px !important;
+	}
+
+	&-18 {
+		font-size: 18px !important;
+	}
+
+	&-20 {
+		font-size: 20px !important;
+	}
+
+	&-24 {
+		font-size: 24px !important;
+	}
+
+	&-30 {
+		font-size: 30px !important;
+	}
+
+	&-35 {
+		font-size: 35px !important;
+	}
+}
+
+.ls {
+	&-p5 {
+		letter-spacing: 0.5px;
+	}
+
+	&-1 {
+		letter-spacing: 1px;
+	}
+
+	&-2 {
+		letter-spacing: 2px;
+	}
+}
+
+// FONT WEIGHT
+.fw {
+	&-300 {
+		font-weight: 300;
+	}
+
+	&-400 {
+		font-weight: 400;
+
+		&i {
+			font-style: italic;
+		}
+	}
+
+	&-500 {
+		font-weight: 500;
+	}
+
+	&-600 {
+		font-weight: 600;
+	}
+
+	&-700 {
+		font-weight: 700;
+	}
+
+	&-800 {
+		font-weight: 800;
+	}
+}

@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Header from '../components/common/layout/Header';
 
 const DashBoard = lazy(() => import('../pages/DashBoard'));
@@ -11,9 +11,8 @@ const AuthorisedApp = () => {
       <Suspense fallback={<h2>Loading...</h2>}>
         <Header />
         <Switch>
-          <Route exact path="/dashboard" component={DashBoard} />
+          <Route exact path="/" component={DashBoard} />
           <Route path="*" component={NoMatch} />
-          <Redirect from="/" to="/dashboard" />
         </Switch>
       </Suspense>
     </div>
