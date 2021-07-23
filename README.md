@@ -16,6 +16,7 @@ Clone repository `git clone https://github.com/AvaniBataviya/react-boilerplate.g
 4) Select (react-select)
 5) File upload (react-dropzone)
 6) Date picker (react-datepicker)
+
 [check out react common component with manual error handling using react hooks](https://github.com/AvaniBataviya/react-common-component)
 
 ## Available Scripts
