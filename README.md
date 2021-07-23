@@ -6,9 +6,17 @@
 3) Basic auth setup using context
 4) scss support with folder structure  
 
-# Getting Started React Boilerplate
+## Getting Started React Boilerplate
 Clone repository `git clone https://github.com/AvaniBataviya/react-boilerplate.git`. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## For reusable common form component
+1) Input
+2) Check box
+3) Radio button
+4) Select (react-select)
+5) File upload (react-dropzone)
+6) Date picker (react-datepicker)
+[check out react common component with manual error handling using react hooks](https://github.com/AvaniBataviya/react-common-component)
 
 ## Available Scripts
 
